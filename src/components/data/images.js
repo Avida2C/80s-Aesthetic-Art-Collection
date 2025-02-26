@@ -1,0 +1,28 @@
+const images = [
+  { full: "/images/Image_01.jpg", thumb: "/images/thumbnails/Image_01_Thumbnail.png" },
+  { full: "/images/Image_02.jpg", thumb: "/images/thumbnails/Image_02_Thumbnail.png" },
+  { full: "/images/Image_03.jpg", thumb: "/images/thumbnails/Image_03_Thumbnail.png" },
+  { full: "/images/Image_04.jpg", thumb: "/images/thumbnails/Image_04_Thumbnail.png" },
+  { full: "/images/Image_05.jpg", thumb: "/images/thumbnails/Image_05_Thumbnail.png" },
+  { full: "/images/Image_06.jpg", thumb: "/images/thumbnails/Image_06_Thumbnail.png" },
+  { full: "/images/Image_07.png", thumb: "/images/thumbnails/Image_07_Thumbnail.png" },
+  { full: "/images/Image_10.png", thumb: "/images/thumbnails/Image_10_Thumbnail.png" },
+  { full: "/images/Image_11.png", thumb: "/images/thumbnails/Image_11_Thumbnail.png" },
+  { full: "/images/Image_12.png", thumb: "/images/thumbnails/Image_12_Thumbnail.png" },
+  { full: "/images/Image_13.png", thumb: "/images/thumbnails/Image_13_Thumbnail.png" },
+  { full: "/images/Image_14.png", thumb: "/images/thumbnails/Image_14_Thumbnail.png" },
+  { full: "/images/Image_15.png", thumb: "/images/thumbnails/Image_15_Thumbnail.png" },
+  { full: "/images/Image_16.png", thumb: "/images/thumbnails/Image_16_Thumbnail.png" },
+  { full: "/images/Image_17.png", thumb: "/images/thumbnails/Image_17_Thumbnail.png" },
+  { full: "/images/Image_18.png", thumb: "/images/thumbnails/Image_18_Thumbnail.png" },
+  { full: "/images/Image_19.png", thumb: "/images/thumbnails/Image_19_Thumbnail.png" },
+  { full: "/images/Image_20.png", thumb: "/images/thumbnails/Image_20_Thumbnail.png" },
+  { full: "/images/Image_21.png", thumb: "/images/thumbnails/Image_21_Thumbnail.png" },
+  { full: "/images/Image_22.png", thumb: "/images/thumbnails/Image_22_Thumbnail.png" },
+  { full: "/images/Image_23.png", thumb: "/images/thumbnails/Image_23_Thumbnail.png" },
+  { full: "/images/Image_24.png", thumb: "/images/thumbnails/Image_24_Thumbnail.png" },
+  { full: "/images/Image_25.png", thumb: "/images/thumbnails/Image_25_Thumbnail.png" },
+  { full: "/images/Image_26.png", thumb: "/images/thumbnails/Image_26_Thumbnail.png" },
+];
+
+export default images;

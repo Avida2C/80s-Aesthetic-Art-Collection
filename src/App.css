@@ -21,7 +21,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -35,4 +34,81 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+.banner-container{
+  height: 400px;
+}
+
+.banner-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+
+.gallery-container{
+  height: 150em;
+
+}
+
+.main-img-section img{
+  height: 41.5em;
+  object-fit: cover;
+}
+
+/* Thumbnails */
+.img-thumbnail {
+  width: 10em;
+  height: 9.5em !important;
+}
+
+
+.img-thumbnail img {
+  object-position: center;
+  object-fit: cover;
+  transition: transform 0.2s ease-in-out;
+}
+
+.img-thumbnail:hover {
+  transform: scale(1.05);
+  
+}
+
+
+/* Pagination */
+.pagination-container {
+  display: flex;
+  justify-content: end;
+}
+
+.pagination-button {
+  
+  background-color: #ff00ff;
+  border: 3px solid white;
+  color: white;
+  padding: 6px 30px;
+  margin-left: 1em;
+  margin-top: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.pagination-button.active {
+  background-color: #00ffea;
+  color: black;
+}
+
+.pagination-button:hover {
+  background-color: #ff00aa;
+}
+
+.footer-container, .nav-container{
+  background-color: #F430D7;
+  
 }
