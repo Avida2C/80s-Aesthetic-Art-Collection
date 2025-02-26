@@ -2,9 +2,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Gallery from "./components/Gallery";
 import Evaluation from "./components/Evaluation";
 import About from "./components/About";
+import Privacy from "./components/privacy";
+import Terms from "./components/terms";
 import Banner from "./components/banner";
-import Navbar from "./components/navbar"; // Import Navbar
-import Footer from "./components/footer"; // Import Footer
+import Navbar from "./components/navigation/navbar"; // Import Navbar
+import Footer from "./components/navigation/footer"; // Import Footer
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/" element={<Gallery />} />
         <Route path="/evaluation" element={<Evaluation />} />
         <Route path="/about" element={<About />} />
+        <Route path="/terms" element={< Terms />} />
+        <Route path="/privacy" element={<Privacy />} />
       </Routes>
 
       <Footer />  {/* Footer at the bottom */}
