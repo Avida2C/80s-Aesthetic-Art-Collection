@@ -4,13 +4,13 @@ import "../../App.css"; // Import styles if needed
 
 export default function Footer() {
     return (
-        <footer className="container-fluid footer-container py-2">
+        <footer className="container-fluid footer-container py-4">
             <div
                 className="container text-white"
                 style={{ backgroundColor: "transparent" }}
             >
                 <div
-                    className="footer-links my-3"
+                    className="footer-links"
                     style={{ backgroundColor: "transparent" }}
                 >
                     <Link

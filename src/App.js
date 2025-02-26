@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Gallery from "./components/Gallery";
-import Evaluation from "./components/Evaluation";
 import About from "./components/About";
 import Privacy from "./components/privacy";
 import Terms from "./components/terms";
@@ -16,7 +15,6 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Gallery />} />
-        <Route path="/evaluation" element={<Evaluation />} />
         <Route path="/about" element={<About />} />
         <Route path="/terms" element={< Terms />} />
         <Route path="/privacy" element={<Privacy />} />
